@@ -1,0 +1,19 @@
+{
+  "name": "hello_world",
+  "version": "0.0.0",
+  "description": "Node.js Addons Example #1",
+  "main": "hello.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "jest ./__tests__",
+    "mocha-test": "mocha"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
